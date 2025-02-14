@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
-    <link href="./assets/styles/styles.css" rel="stylesheet">
+    <link href="./styles/styles.css" rel="stylesheet">
 </head>
 <body>
 
@@ -556,33 +556,7 @@
         </div>
     </section>
 
-    <!-- Swiper Initialization Script -->
-    <script>
-
-      function sendMessage(params) { 
-        Swal.fire({
-          title: "<i>Mensaje Enviado</i>", 
-          html: "<b>Gracias</b>, pronto seras contactado por nosotros",  
-          confirmButtonText: "OK", 
-        }); 
-      }
-
-        const swiper = new Swiper('.swiper', {
-            slidesPerView: 1,
-            spaceBetween: 10,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev'
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true
-            },
-            loop: true
-        });
-        
-        AOS.init();
-    </script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
