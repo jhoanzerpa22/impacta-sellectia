@@ -14,6 +14,22 @@
         
         AOS.init();
 
+        const enlaces = document.querySelectorAll('a[href^="#"]');
+
+            enlaces.forEach(enlace => {
+                enlace.addEventListener('click', function(evento) {
+                    evento.preventDefault();
+
+                    const destinoId = this.getAttribute('href');
+                    const destino = document.querySelector(destinoId);
+
+                    destino.scrollIntoView({
+                    behavior: 'smooth',
+                    });
+                });
+            });
+            
+
         function sendMessage(params) { 
             Swal.fire({
               title: "<i>Mensaje Enviado</i>", 
