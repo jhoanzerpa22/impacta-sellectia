@@ -60,7 +60,7 @@ footer {
 footer .footer-content {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+  gap: 1vh;
 }
 
 footer .footer-content .footer-column {
@@ -302,12 +302,12 @@ footer .footer-bottom {
 /* Contact Form Section */
 .contact-section {
   background-color: #dc2626;
-  padding: 60px 200px;
+  padding: 5vh 5vh;
   color: #ffffff;
 }
 
 .contact-section h2 {
-  text-align: center;
+  text-align: left;
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 30px;
