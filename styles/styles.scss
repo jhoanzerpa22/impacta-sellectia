@@ -33,12 +33,12 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));*/
     display: flex;
-    gap: 70px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    gap: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 70px;
+    padding: 2vh;
 }
 
 .service-card {
@@ -54,7 +54,7 @@
 
 .service-card img {
     width: 100%;
-    height: 300px;
+    height: 50%;
     object-fit: fill;
     border-radius: 10px;
 }
@@ -71,7 +71,7 @@
 
 .service-card h3 {
     margin-top: 20px;
-    font-size: 36px;
+    font-size: 2em;
     font-weight: 600;
     color: black;
     text-align: left;
@@ -80,7 +80,7 @@
 
 .service-card p {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 1em;
     color: #4f4f4f;
     text-align: left;
 }
@@ -146,7 +146,7 @@
 .client-logo {
     /*width: 13%;*/
     flex: 0 10%;
-    height: 20vh;
+    height: 10vw;
     background-color: rgb(226 50 50);
     padding: 30px;
     align-content: center;
@@ -271,6 +271,10 @@
     gap: 30px;
 }
 
+.label-politica {
+    font-size: 1em;
+}
+
 .contact-form .check-politica input[type="checkbox"] {
     content: "";
     height: 45px;
@@ -319,7 +323,7 @@
     height: 40px;
     border: none;
     border-radius: 48px;
-    font-size: 18px;
+    font-size: 0.7em;
     color: variables.$text-red;
     cursor: pointer;
     flex: 0 80%;
