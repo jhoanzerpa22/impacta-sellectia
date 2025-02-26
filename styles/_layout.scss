@@ -2,14 +2,14 @@
 header {
     color: #e60000;
     background-color: #ffffff;
-    padding: 20px 0;
+    padding: 1rem 0;
 }
 
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 1rem;
 }
 
 header h1 {
@@ -20,7 +20,7 @@ header h1 {
 header nav ul {
     display: flex;
     list-style-type: none;
-    gap: 20px;
+    gap: 2rem;
 }
 
 header nav a {
@@ -36,23 +36,23 @@ header nav a:hover {
 /* Footer Section */
 footer {
     background-color: #0f172a;
-    padding: 40px 50px;
+    padding: 2rem 1rem;
     color: #ffffff;
 }
 
 footer .footer-content {
     display: flex;
     justify-content: space-between;
-    gap: 1vh;
+    gap: 1rem;
 }
 
 footer .footer-content .footer-column {
-    width: 30%;
+    width: 15rem;
 }
 
 footer .footer-content h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: 2rem;
     font-weight: 600;
     color: #e60000;
 }
@@ -63,7 +63,7 @@ footer .footer-content ul {
 }
 
 footer .footer-content ul li {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 footer .footer-content ul li a {
